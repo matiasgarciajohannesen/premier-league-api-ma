@@ -25,6 +25,7 @@ const App = () => {
               return (
               <div className= "Team-Info">
                 <p key={id}>Team name: {attributes.team_name}</p>
+                <img key={id} src={attributes.img_url}/> 
                 <p key={id}>Stadium name: {attributes.stadium.data.attributes.stadium_name}</p>
                 <p key={id}>Stadium capacits: {attributes.stadium.data.attributes.Capacity}</p>
               </div>)

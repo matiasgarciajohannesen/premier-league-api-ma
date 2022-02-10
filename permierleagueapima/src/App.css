@@ -9,11 +9,14 @@
 
 .Team-Info {
   display: flex;
+  flex-direction: column;
+  border: 1px solid black;
   justify-content: space-around;
   margin-right: 40px;
+  width: 100%;
 }
 
-.Team-Info, p{
-  width: 500px;
-}
+
+
+
 
