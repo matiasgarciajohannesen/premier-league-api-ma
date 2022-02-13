@@ -19,7 +19,7 @@ const App = () => {
     <>
       
       <div className= "main">
-        <h1>Premier League Teams</h1>
+        <h1>Premier League Teams 2021/2022</h1>
         {data.length > 0
           ? data.map(({attributes, id}) => {
               return (
