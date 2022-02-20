@@ -5,18 +5,22 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 50%;
+}
+
+.page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .Team-Info {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
-  width: 500px;
+  margin: 20px;
+  width: 400px;
   background-color: blueviolet;
 }
 
